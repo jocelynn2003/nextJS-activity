@@ -57,7 +57,7 @@ export const Card = ({
           <p className="italic hover:not-italic"> {name}</p>
           <p className="italic hover:not-italic"> {description}</p>
           <p className="italic hover:not-italic">
-            {" "}
+            {""}
             <svg
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
