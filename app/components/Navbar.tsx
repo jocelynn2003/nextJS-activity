@@ -3,18 +3,27 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex gap-24 text-lg justify-end text-pink-900 m-6 p-5">
+    <div className="flex gap-10 text-lg justify-center text-pink-900 m-2 p-0 font-bold px-4">
       <Link className=" hover:text-black" href="/home">
         HOME
       </Link>
       <Link className=" hover:text-black" href="/home">
-        ABOUT
+        CATEGORIES
       </Link>
       <Link className=" hover:text-black" href="/home">
-        ORDERS
+        MEN
       </Link>
       <Link className=" hover:text-black" href="/home">
-        LOGIN
+        WOMEN
+      </Link>
+      <Link className=" hover:text-black" href="/home">
+        BEAUTY
+      </Link>
+      <Link className=" hover:text-black" href="/home">
+        JEWELRY
+      </Link>
+      <Link className=" hover:text-black" href="/home">
+        HOT DEALS
       </Link>
     </div>
   );

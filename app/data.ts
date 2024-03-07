@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     slug: "nike-dunk-low-retro-men-s-shoes-white-3195806",
-    name: "Dunk Low Retro Men's Shoes",
+    name: "Low Retro",
     description: "Excellent",
     rate: "4.5",
     price: "Php 5,098",
@@ -24,7 +24,7 @@ export const products = [
   {
     id: 3,
     slug: "nike-dunk-low-retro-sneakers-white-2914054",
-    name: "Dunk Low Retro Sneakers",
+    name: "Retro Sneakers",
     description: "Good Quality",
     rate: "3.4",
     price: "Php 5767",

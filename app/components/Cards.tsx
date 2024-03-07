@@ -13,7 +13,7 @@ type CardsProps = {
 
 export const Cards = ({ products }: CardsProps) => {
   return (
-    <div className="border-spacing-x-7 font-sans: md: font-serif border-style: border-solid">
+    <div className="border-spacing-x-7 font-sans: md: font-serif border-style: border-solid border-collapse">
       <div className="flex gap-7 h-screen justify-center w-full items-center">
         {products.map((product) => {
           return (

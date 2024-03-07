@@ -2,15 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.card{
-
-    border: 2px solid black;
-    flex: content;
-    gap: 1rem;
+@layer components{
+    .header_top_icon_wrapper{
+        @apply bg-gray-200 rounded-md p-[6px] text-[14px] cursor-pointer hover:text-pink-500 m-1;
+    }
 }
 
-.grid-container{
-    border-style: solid;
-    padding:0%;
-    border-width: thick;
+@card components{
+    .border{
+        @apply bg-gray-200 rounded-md flex;
+    }
 }
