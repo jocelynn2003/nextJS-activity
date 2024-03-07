@@ -2,7 +2,7 @@ import Link from "next/link";
 import { products } from "../data";
 import { Card } from "../components/Card";
 import { Cards } from "../components/Cards";
-export const ProductListPage = () => {
+const ProductListPage = () => {
   return (
     <>
       {/* <ul>
